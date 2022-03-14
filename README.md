@@ -1,52 +1,32 @@
-# Hello World with Vanilla JS
+# Excuse Generator con JS HTML5 & CSS3
 
-Start coding in 30 seconds by opening this template in gitpod:
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/vanillajs-hello.git)
+Creando una landing page que genera automaticamente una excusa con cada onload.
 
-### Manual Installation
+### Pre-requisitos 📋
 
-1) Remember to install the npm packages first:
-```
-$ npm install
-```
+1. Ordenador o dispositivo movil.
+2. Programa donde copiar el repositorio. (Gitpod, VisualStudioCode, Pycharm ....)
+3. Navegador web donde visualizar el resultado del codigo.
 
-2) Build and Start coding!
 
-Build the application for the first time...
+## Construido con 🛠️
 
-```
-$ npm run start
-```
+* [HTML5] - Base del Front-end
+* [CSS3]
+* [Javascript](https://www.javascript.com/) - Usado para generar interactividad.
+* [Bootstrap v5.1.3](https://getbootstrap.com/) - Libreria para el diseño del HTML
 
-And start coding your Vanilla.js application, update the `src/index.html`, `src/index.css` or `src/app.js` depending on your needs.
 
-## FAQ
+## Estructura y explicación del codigo ⚙️
 
-#### 1) How do I run my code?
+* Landing page en HTML5, al caragr la pagina aparece una frase y debajo de la misma una excusa la cual es aleatoria y se genera con cada recarga de la pagina.
+* NO se utiliza el documento CSS, este solo existe de apoyo para el proyecto.
+* El JS consta de 4 Arrays con varios string cada uno en su interior. Posteriormente existe una funcion llamada rannumber la cual simplemente extrae un indice aleatorio de un array dado. La funcion excuses utiliza el anterior rannumber para extraer un string aleatorio de cada array dado y guardarlo en una variable. Al final se retorna un string que incluye todas las variables generadas.
+* Finalmente con windows.onload colocamos la funcion excuses en el id del HTML que mostrara la excusa generado aleatoriamente.
 
-- Type on the command line `$ npm run start` and type localhost on the browser.
 
-#### 2) Where do I write my code?
-It depends on the language, but you have `./src/js/app.js`, `./src/style/index.css` and `./isrc/index.html` respectively, you can add new `.html` as you please, just make sure to include import it on the index.js.
+## Autor ✒️
 
-__Note:__ remember that the JS workflow starts inside `window.onload`.
+* **Jose Luis Gil** - *Ejercicio completo* - [JoseLike](https://github.com/JoseLike)
 
-#### 3) I don't see my changes.
-
-Everytime you change any file inside the `./src` folder the website public URL will automatically refresh the changes (it's a process called hot deploy)
-Remember also to refresh cleaning the cache (command+shift+r on mac, control+shift+r on pc & linux)
-
-#### 4) How do I include more images on my project?
-Add them inside the `./src/assets/img` folder and import them from any of your JS files. E.g: `import "../assets/img/rigo-baby.jpg";`
-
-#### 5) How do I include more JS files?
-Just add the files into the JS folder and import the file/variables into your index.js. E.g: `import myVar from "./file2.js"`
-
-#### 6) How do I publish the website?
-
-This boilerplate is 100% compatible with the free github pages hosting. Publish your website by running:
-```sh
-$ npm run deploy
-```
-
-Very easy and in just one step!  Push to your __master__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages), the project is ready to be published. Remember to choose to run the Github Page from your master branch.
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/JoseLike/excuse-generator/contributors) quíenes han participado en este proyecto. 
