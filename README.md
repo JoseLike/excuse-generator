@@ -16,6 +16,17 @@ Creando una landing page que genera automaticamente una excusa con cada onload.
 * [Javascript](https://www.javascript.com/) - Usado para generar interactividad.
 * [Bootstrap v5.1.3](https://getbootstrap.com/) - Libreria para el diseño del HTML
 
+## Deployment
+
+Este ejercicio inicia automaticamente una preview del mismo.
+
+Aun asi, para lanzar este proyecto introduce en la consola el codigo de la ventana inferior, posteriormente si no se muestra el resultado escibre localhost en el buscador.
+
+```bash
+  $ npm run start
+```
+
+
 
 ## Estructura y explicación del codigo ⚙️
 
